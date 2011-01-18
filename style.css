@@ -1,0 +1,76 @@
+body {
+	font: 12px/140% tahoma, arial, sans-serif;
+	text-shadow: 1px 1px 1px #ccccee;
+	color: #51656f;
+	margin: 0;
+	padding: 0;
+}
+
+a img {
+	border: 0;
+}
+
+h2,h4 {
+	text-align: center;
+	text-shadow: 2px 2px 2px #ccccee;
+}
+
+div#container {
+	background: url(header.jpg) #fff no-repeat;
+	width: 1022px;
+	height: 592px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+div#weatherBox {
+	background-color: #ecf6ff;
+	width: 620px;
+	min-height: 200px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #497287;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	box-shadow: 2px 2px 20px #698da7;
+	-webkit-box-shadow: 2px 2px 20px #698da7;
+	-moz-box-shadow: 2px 2px 20px #698da7;
+}
+
+div#weatherBox select {
+	background-color: #ecf6ff;
+	font-family: Tahoma;
+	font-size:12px;
+	padding: 3px;
+	border: 1px solid #497287;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+div#weatherBox select option:nth-child(odd) {
+	background-color: #cceedd;
+}
+
+/* hmmm... no like that, ie9! beta */
+/* box-shadow in ie9 move to left if set direction to rtl #weatherBox */
+div#weatherBox * {
+	direction:rtl;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul li p {
+	display:inline;
+}
+
+div#current {
+	float: right;
+}
+
+div#more {
+	margin: 0 250px 0 0;
+}

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Weather by eAmin</title>
+	<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+	<script type="text/javascript" src="jsweather.js"></script>
+	<script type="text/javascript" src="use.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<h2>JavaScript Weather by eAmin</h2>
+		<h4>powered by Yahoo! Weather</h4>
+		<div id="weatherBox">
+			<div id="current">
+			<form>
+				<select id="selectBox">
+					<option value="Tehran">تهران</option>
+					<option value="Mashhad">مشهد</option>
+					<option value="Esfahan">اصفهان</option>
+					<option value="Shiraz">شیراز</option>
+					<option value="Gorgan">گرگان</option>
+					<option value="Hamadan">همدان</option>
+					<option value="Hormozgan">هرمزگان</option>
+					<option value="Kerman">کرمان</option>
+					<option value="Kermanshah">کرمانشاه</option>
+					<option value="Bojnurd">بجنورد</option>
+					<option value="Birjand">بیرجند</option>
+					<option value="Zahedan">زاهدان</option>
+					<option value="Ahvaz">اهواز</option>
+					<option value="Yasuj">یاسوج</option>
+					<option value="KhurramAbad">خرم آباد</option>
+					<option value="Karaj">کرج</option>
+					<option value="Yazd">یزد</option>
+					<option value="Zanjan">زنجان</option>
+					<option value="Orumiyeh">ارومیه</option>
+					<option value="Tabriz">تبریز</option>
+					<option value="Rasht">رشت</option>
+					<option value="Arak">اراک</option>
+				</select>
+				<span>سانتیگراد ؟</span><input type="checkbox" id="cf" checked />
+			</form>
+			<h4>دمــای فعــلـی </h4>
+			<ul>
+				<li><img src="" alt="Condition image" /></li>
+				<li><p>شهر : </p><p id="city">loading...</p></li>
+				<li><p>دمای هوا : </p><p id="temp">loading...</p></li>
+				<li><p>وضعیت هوا : </p><p id="text">loading...</p></li>
+				<li><p>در تاریخ : </p><p id="date">loading...</p></li>
+			</ul>
+			</div>
+			<div id="more">
+				<ul>
+					<li><p>طلوع خورشید : </p><p id="sunrise">loading...</p></li>
+					<li><p>غروب خورشید : </p><p id="sunset">loading...</p></li>
+					<li><p>سزعت باد : </p><p id="wspeed">loading...</p></li>
+					<li><p>جهت باد : </p><p id="wdirection">loading...</p></li>
+					<li><p>دمای باد : </p><p id="wchill">loading...</p></li>
+					<li><p>میزان دید : </p><p id="visibility">loading...</p></li>
+					<li><p>رطوبت هوا : </p><p id="humidity">loading...</p></li>
+					<li><p>فشار هوا : </p><p id="pressure">loading...</p></li>
+					<li><p>وضعیت فشار هوا : </p><p id="rising">loading...</p></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
